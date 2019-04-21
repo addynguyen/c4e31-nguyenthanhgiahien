@@ -1,0 +1,59 @@
+Excercise 1:
+ a/ Để xác định được variable's type trong JavaScript, chúng ta sử dụng hàm "type of":
+     > typeof "foo"
+     "string"
+     > typeof true
+     "boolean"
+     > typeof 42
+     "number"
+
+ b/ Trong các trường hợp sau, ta sẽ nhận được "SyntaxError" khi đặt tên biến sai:
+     - Tên bắt đầu bằng số hoặc chứa các ký tự đặc biệt như: &, *, (, ) .
+     - Tên biến chứa ký tự dấu cách (Space)
+     - Tên biến trùng với từ khóa như var, for, if,...
+     Như vậy, tên biến phải bắt đầu bằng chữ cái hoặc kí tự gạch dưới _ .
+
+     Ví dụ: 
+     - let 96ahihi = abc (Tên biến bắt đầu bằng số)
+     - let gia hien = thongminhquatroi (Tên biến chứa dấu sách)
+     - let for = me (Tên biến trùng với từ khóa)
+
+Excercise 2:
+     let x = promt("CircleRadius?");
+     console.log("Area=", x*x*3.14)
+
+Excercise 3:
+     let C = promt("Enter the temperature in Celsius?");
+     console.log(c,"(ᵒC)=", c*1.8+32,"(F)")
+
+Excercise 4:
+ a/ A square
+     //     fd(100)
+     //     rt(90)
+     //     fd(100)
+     //     rt(90)fd(100)
+     //     rt(90)fd(100)
+     //     rt(90)
+ b/ An equilateral triangle
+     rt(30)
+     fd(100)
+     rt(120)
+     fd(100)
+     rt(120)
+     fd(100)
+ c/ A circle 
+     for(let i=0;i<=360;i++){
+         fd(1)
+         rt(1)
+     }
+ d/ Multi-circles 
+    for(let i=0;i<90;i++){
+         rt(3)
+         for(let i=0;i<=360;i++){
+             fd(1)
+             rt(1)
+     }
+    }
+
+
+
