@@ -1,7 +1,7 @@
 // const X = prompt("Enter X");
 // const Y = prompt("Enter Y");
 
-// console.log("SUM =",Number(X) + Number(Y));
+// console.log("SUM =",Number(X)+Number(Y));
 
 // for (let i=0; i < 3; i++) {
 //     fd(100)
@@ -15,7 +15,7 @@
 // }
 
 
-for (let i=0; i<5; i++) {
-    console.log(i)
-    console.log("Hello")
-}
+// for (let i=0; i<5; i++) {
+//     console.log(i)
+//     console.log("Hello")
+// }

@@ -1,0 +1,28 @@
+TURTLE EXCERCISE
+
+1.
+function HelloWorld(){
+    let hello = "Hello World";
+    console.log(hello);
+}
+HelloWorld();
+HelloWorld();
+HelloWorld();
+
+2.function SUM(x,y){
+     let sum=x+y;
+     console.log(sum);
+}
+SUM(2,3);
+
+3.
+function draw_square(clr, length){
+    for (i = 0; i < 4; i++){
+        color(clr);
+        fd(length);
+        rt(90);
+    };
+}
+draw_square("red",144);
+
+4.
